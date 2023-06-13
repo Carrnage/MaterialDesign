@@ -26,8 +26,10 @@
         <item>Pinch of Spice</item>
         <item>The Batch Cafe</item>
         <item>Buster Crabb</item>
-        <item>The <Grille></Grille></item>
+        <item>The Grille</item>
         <item>Bombay Palace</item>
         <item>Industry</item>
     </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

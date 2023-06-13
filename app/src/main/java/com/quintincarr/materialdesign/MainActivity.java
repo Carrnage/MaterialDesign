@@ -28,10 +28,12 @@ public class MainActivity extends AppCompatActivity {
                 case 0:
                     return new TopFragment();
                 case 1:
-                    return new AttractionFragment();
+                    return new FeaturedFragment();
                 case 2:
-                    return new RestaurantFragment();
+                    return new AttractionFragment();
                 case 3:
+                    return new RestaurantFragment();
+                case 4:
                     return new HotelFragment();
                 default:
                     return null;
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         }
         @Override
         public int getItemCount() {
-            return 4;
+            return 5;
         }
     }
 
@@ -61,12 +63,15 @@ public class MainActivity extends AppCompatActivity {
                     tab.setIcon(R.drawable.baseline_home_24);
                     break;
                 case 1:
-                    tab.setIcon(R.drawable.baseline_attractions_24);
+                    tab.setIcon(R.drawable.baseline_favorite_24);
                     break;
                 case 2:
-                    tab.setIcon(R.drawable.baseline_restaurant_24);
+                    tab.setIcon(R.drawable.baseline_attractions_24);
                     break;
                 case 3:
+                    tab.setIcon(R.drawable.baseline_restaurant_24);
+                    break;
+                case 4:
                     tab.setIcon(R.drawable.baseline_hotel_24);
                     break;
                 default:
