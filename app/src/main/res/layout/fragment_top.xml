@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TopFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="30dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_invercargill" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet mattis vulputate enim nulla. In metus vulputate eu scelerisque felis imperdiet proin. Lectus proin nibh nisl condimentum id. Dui sapien eget mi proin sed libero enim. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Sit amet consectetur adipiscing elit pellentesque habitant morbi. Phasellus vestibulum lorem sed risus. Vehicula ipsum a arcu cursus vitae congue mauris. Id semper risus in hendrerit gravida rutrum quisque. Nulla porttitor massa id neque. Lorem donec massa sapien faucibus et. Neque aliquam vestibulum morbi blandit cursus risus at ultrices mi. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare.
+
+Quisque non tellus orci ac auctor augue. Et magnis dis parturient montes nascetur ridiculus. Pellentesque eu tincidunt tortor aliquam nulla facilisi. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam. Sed nisi lacus sed viverra tellus. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Quis varius quam quisque id diam vel. Id ornare arcu odio ut sem. Scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis. Lectus magna fringilla urna porttitor. Magna fringilla urna porttitor rhoncus dolor purus. Et sollicitudin ac orci phasellus egestas tellus. Tristique senectus et netus et. Sed cras ornare arcu dui. Id faucibus nisl tincidunt eget nullam. Orci sagittis eu volutpat odio facilisis mauris sit amet massa. Ornare suspendisse sed nisi lacus. Nisi quis eleifend quam adipiscing. A diam sollicitudin tempor id.
+
+Integer quis auctor elit sed vulputate mi sit amet mauris. Dictumst quisque sagittis purus sit. Cursus sit amet dictum sit amet justo donec enim diam. Morbi blandit cursus risus at. Amet est placerat in egestas erat imperdiet sed. Euismod in pellentesque massa placerat. Et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Duis ut diam quam nulla. Posuere sollicitudin aliquam ultrices sagittis orci a. Ac ut consequat semper viverra nam. Elit duis tristique sollicitudin nibh sit amet.
+
+" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
