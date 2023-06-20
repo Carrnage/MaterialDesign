@@ -20,6 +20,14 @@ public class Location {
             new Location("The Langlands", R.drawable.thelanglands),
             new Location("Water Tower", R.drawable.watertower)
     };
+    public static final Location[] cafes={
+            new Location("Pinch of Spice", R.drawable.ic_channel_background),
+            new Location("The Batch Cafe", R.drawable.ic_channel_background),
+            new Location("Buster Crabb", R.drawable.ic_channel_background),
+            new Location("Bombay Palace", R.drawable.ic_channel_background),
+            new Location("The Grille", R.drawable.ic_channel_background),
+            new Location("Industry", R.drawable.ic_channel_background)
+    };
     public String getName() {
         return name;
     }
@@ -34,4 +42,5 @@ public class Location {
         return getName();
     }
 }
+
 
